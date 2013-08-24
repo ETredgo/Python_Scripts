@@ -1,4 +1,4 @@
-__author__ = 'LogicallySecure'
+__author__ = 'edtredgett - edtredgett@gmail.com'
 #!/usr/bin/env python
 
 from bs4 import BeautifulSoup
