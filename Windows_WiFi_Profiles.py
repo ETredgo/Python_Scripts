@@ -1,8 +1,11 @@
 #Export WLAN profiles from a windows machine, with passphrase
 #__author__ = "Ed Tredgett - edtredgett@gmail.com"
 print """
-Quick script to export all wireless profiles from a windows box
+Quick script to export all wireless profiles from a windows box.
 Written by Ed Tredgett - edtredgett@gmail.com Twitter-@edtredgett
+
+If you use pyinstaller or py2exe to create an exe of this script, it turns into a nice little piece of malware.......
+
 """
 import subprocess
 import os
