@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-__author__ = "Ed Tredgett - Logically Secure"
+__author__ = "Ed Tredgett - edtredgett@gmail.com"
 #Script to get whois data and push to csv file
 #Created in order to use exported urls from a pcap,
 #then import the csv which is generated into maltego for analysis
